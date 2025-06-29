@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:api/api.dart';
+import 'package:api/src/models/models.dart';
 import 'package:api/src/utils/api_http_client.dart';
 
 class EncryptedKeyRequestFailure implements Exception {}
